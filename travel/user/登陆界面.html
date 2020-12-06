@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <title>用户登陆页面</title>
+    <link rel="stylesheet" href="../css/one.css" type="text/css">
+    <script type="text/javascript">
+        function login(){
+            var name = document.getElementById("userName").value;
+            var pass = document.getElementById("passWord").value;
+//判断非空
+            if((name==null || name=="") || (pass==null || pass=="")){
+                alert("用户名或密码不能为空！！");
+            }
+            else{
+                if(name=="lgs" && pass=="123456"){
+                    alert("登录成功！");
+                    //这里写你页面跳转的语句
+
+                    self.location="index.html";
+                }
+                else{
+                    alert("用户名或密码错误！！");
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+<table class="main" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+        <td class="hr_1">用户登陆</td>
+    </tr>
+    <tr>
+        <td style="height:20px;"></td>
+    </tr>
+    <form  method="post" name="myform" onsubmit="return checkAll()" >
+        <tr>
+            <td>
+                <table width="100%" border="0" cellspacing="5" cellpadding="10">
+                    <tr>
+                        <td class="left">用户名：</td>
+                        <td class="center"><input id="userName" class="input" type="text" oninput="getPassword(this)" /></td>
+                    </tr>
+                    <tr>
+                        <td class="left">密码：</td>
+                        <td class="center"><input id="passWord" class="input" type="password"/></td>
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                        <td style="padding-left: 30px;">
+                            <input type="button" class="btnLi" value="登&nbsp;&nbsp;&nbsp;&nbsp;录" onclick="login()" style="margin: 6px;width: 100px;" />
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </form>
+</table>
+</body>
+</html>

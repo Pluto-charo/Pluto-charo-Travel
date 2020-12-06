@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+}
+body{
+    margin-top: 20px;
+    background: #f8f8f8;
+}
+.note {
+    overflow:hidden;
+}
+.note ul{
+    width:100%;
+    margin-top:-1px;
+}
+.note li{
+    margin-top: 1px;
+    margin-bottom: 39px;
+    width: 860px;
+    height: 232px;
+    background: #fff;
+    border: 1px solid #ddd;
+    overflow:hidden;
+}
+.note li:hover,
+.note li.active {
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,.19);
+}
+.note .notes-pic,
+.note .notes-pic img{
+    display:block;
+    width:369px;
+    height:232px;
+}
+.note .notes-pic{
+    float:left;
+    position:relative;
+    background-color:#ddd;
+    overflow:hidden;
+    transition: all 2s ease 0s;
+}
+.note .notes-pic .pic-mask{
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    /*background-color:#000;*/
+    /*opacity:0;*/
+    /*filter:alpha(opacity=0);*/
+}
+.note .notes-pic img{
+    /*-moz-transition:all 1.2s;*/
+    /*-webkit-transition:all 1.2s;*/
+    /*-o-transition:all 1.2s;*/
+    /*-ms-transition:all 1.2s;*/
+    transition:all 1.2s;
+}
+
+/*.note .notes-pic:hover{*/
+    /*opacity:0.1;*/
+    /*filter:alpha(opacity=10);*/
+/*}*/
+.note .notes-pic:hover img{
+    /*-moz-transform:scale(1.2);*/
+    /*-webkit-transform:scale(1.2);*/
+    /*-o-transform:scale(1.2);*/
+    /*-ms-transform:scale(1.2);*/
+    transform:scale(1.2);
+}
+
+.note .notes-group{
+    padding: 20px 20px 0 388px;
+}
+.note .info-cont{
+    overflow:hidden;
+}
+.note .info-cont img.user-avatar{
+    display:block;
+    float:left;
+    width:60px;
+    height:60px;
+    border-radius: 50%;
+}
+
+.note .info-cont .notes-hd{
+    margin-left:70px;
+}
+.note .info-cont h2{
+    overflow: hidden;
+    white-space:nowrap;
+}
+.note .info-cont .p-title a{
+    font-size:18px;
+    line-height:1.6em;
+    display: block;
+    color: #333;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-decoration:none;
+}
+.note .info-cont .p-title a:hover, .p-cont a:hover{text-decoration: underline}	/* 鼠标移动到链接上 */
+.note .info-cont .p-title a:active , .p-cont a:hover{color: #73cef4; }
+.p-cont a:link{text-decoration: none}
+.note .info-cont .p-title .operate-wrap{
+    overflow: hidden;
+    display: inline-block;
+    float: right;
+    margin-left: 20px;
+}
+.note .info-cont .p-title .operate-wrap a{
+    font-size: 12px;
+    display:inline-block;
+    line-height:28px;
+    padding:0 10px;
+    color:#666666;
+    position:relative;
+    margin-left: -1px;
+}
+
+.note .info-cont .p-title .operate-wrap  a:after {
+    position: absolute;
+    left: 0;
+    top: 6px;
+    content: '';
+    width: 1px;
+    height: 10px;
+    background-color: #ddd
+}
+.note .info-cont .p-author{
+    overflow:hidden;
+    text-align:right;
+    /*font-family: "Tahoma";*/
+    color: #999;
+}
+
+.note .info-cont .p-author .author-info{
+    float:left;
+}
+
+.note .notes-group .p-cont{
+    /*word-break:break-word;*/
+    margin: 10px 0 15px;
+    font-size: 14px;
+    line-height:1.6em;
+    color:#666;
+}
+.note .notes-group .p-cont .link-btn{
+    margin-left:4px;
+    color: #3b83cb;
+}
+.note .notes-group .p-tag{
+    margin-top:10px;
+    width:100%;
+    overflow:hidden;
+}
+.note .notes-group .p-tag h2,
+.note .notes-group .p-tag .tag-box{
+    float:left;
+    line-height:18px;
+}
+.note .notes-group .p-tag .tag-box{
+    display:block;
+    margin-right:5px;
+    padding:0 10px;
+    background-color:#FFF;
+    border:1px solid #e7e7e7;
+    color:#666;
+    border-radius:10px
+}
+.p-tag h2{
+    display: inline;
+    font-size: 18px;
+
+}
+.p-tag{
+    padding-top: 20px;
+    margin-left: 10px;
+}
+.notes-pic{
+    margin: 3px 10px 0 2px;
+}
+.p-cont{
+    font-family: "华文宋体";
+}

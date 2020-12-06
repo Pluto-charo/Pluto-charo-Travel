@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background: #f2f3ea;
+}
+a{
+    text-decoration: none;
+}
+.w{
+    width: 1000px;
+    height: 100%;
+    margin:auto;
+}
+.top{
+    height: 180px;
+    background: #f9faf2;
+}
+.top h1,.top p{
+    font-weight:400;
+    width: 1000px;
+    margin:auto;
+}
+.top h1{
+    font-size: 38px;
+    color: #287D3A;
+    padding-top: 40px;
+}
+.top p{
+    color: #333;
+    padding-top: 20px;
+}
+.col{
+    width: 100%;
+    height: 440px;
+    padding:40px 0;
+}
+.left,.right{
+    width: 480px;
+    height: 100%;
+    background: #fff;
+    float: left;
+    position: relative;
+    border-bottom: 5px solid #60b272;
+}
+.col .right{
+    float: right;
+}
+.col .tou{
+    display: inline-block;
+}
+.col .site{
+    display: block;
+    width: 100px;
+    height: 40px;
+    font-size: 22px;
+    text-align: center;
+    line-height:40px;
+    font-weight:400;
+    background: #60b272;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    bottom:130px;
+    margin-left:-50px;
+    border-radius: 20px;
+}
+.tow{
+    width: 90%;
+    margin:auto;
+    padding:30px 20px 20px;
+}
+.tow span{
+    display: block;
+    font-size: 12px;
+    color: #555;
+    height: 50px;
+}
+.tow a{
+    display: inline-block;
+    font-size: 12px;
+    color: #60b272;
+    width: 100%;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 20px;
+}

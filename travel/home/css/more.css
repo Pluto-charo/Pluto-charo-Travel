@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #ecf2f4;
+}
+a{
+    text-decoration: none;
+}
+i{
+    font-style: normal;
+    font-size: 14px;
+}
+.w{
+    width: 1190px;
+    margin:40px auto;
+}
+.city{
+    height: 900px;
+}
+.city-top{
+    height: 200px;
+    position: relative;
+    margin-bottom:20px;
+    background: url("../img/title_bg.png");
+}
+.city-top h1{
+    color: #333;
+    font-weight:400;
+    font-size: 30px;
+    position: absolute;
+    left: 50%;
+    margin:-20px 0 0 -77px;
+}
+.c-left{
+    width: 450px;
+    height: 140px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+.c-right{
+    width: 650px;
+    position: absolute;
+    font-size: 14px;
+    color: #333;
+    top: 50px;
+    right: 30px;
+}
+.city-info{
+    height: 600px;
+}
+.info-left{
+    display: block;
+    width: 580px;
+    height: 600px;
+    float: left;
+    background: #fff;
+}
+.info-right{
+    display: block;
+    width: 580px;
+    height: 600px;
+    float: right;
+    background: #fff;
+}
+.info-left .tu{
+    width: 580px;
+    height: 354px;
+}
+.inner{
+    height: 80px;
+    color: #333;
+    border-bottom:1px dashed #cccccc;
+    padding-left: 15px;
+}
+.inner a{
+    display: block;
+    color: #333;
+    padding: 10px 0;
+}
+.inner a:hover{
+    color: #f10215;
+}
+.inner span{
+    display: inline-block;
+    padding-right: 20px;
+    font-size: 14px;
+    border-right:1px solid #cccccc;
+}
+.yu{
+    margin-top: 10px;
+    padding-left: 15px;
+    position: relative;
+}
+.yu span{
+    font-size: 30px;
+    font-weight:700;
+    color: #f10215;
+}
+.yu a{
+    display: inline-block;
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #ff6600;
+    color: #fff;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    right: 30px;
+}
+.yu a:hover{
+    text-decoration: underline;
+}
+.city-top_a{
+    height: 200px;
+    position: relative;
+    margin-bottom:20px;
+    background: url("../img/title_bg_contrary.png");
+}
+.city-top_a h1{
+    color: #333;
+    font-weight:400;
+    font-size: 30px;
+    position: absolute;
+    left: 50%;
+    margin:-20px 0 0 -77px;
+}
+.city-top_a .c-left{
+    width: 650px;
+    font-size: 14px;
+    color: #333;
+    position: absolute;
+    top: 50px;
+    left: 30px;
+}
+.city-top_a .c-right{
+    width: 450px;
+    height: 140px;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+

@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../../fonts/icomoon.eot?7kkyc2');
+    src:  url('../../fonts/icomoon.eot?7kkyc2#iefix') format('embedded-opentype'),
+    url('../../fonts/icomoon.ttf?7kkyc2') format('truetype'),
+    url('../../fonts/icomoon.woff?7kkyc2') format('woff'),
+    url('../../fonts/icomoon.svg?7kkyc2#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+li{
+    list-style: none;
+}
+i{
+    font-style: normal;
+}
+a{
+    text-decoration: none;
+}
+.w{
+    width: 1190px;
+    margin:auto;
+}
+.red{
+    color: #f10215!important;
+}
+.header{
+    height: 29px;
+    width: 100%;
+    background: #E3E4E5;
+    border-bottom:1px solid #cccccc;
+}
+.left{
+    height: 30px;
+    float: left;
+    line-height: 30px;
+}
+.left li{
+    float: left;
+    margin-left:10px;
+    font-size: 14px;
+    color: #666;
+}
+.right{
+    float: right;
+    height: 30px;
+    line-height: 30px;
+}
+.right li{
+    float: left;
+    margin-right:25px;
+}
+.right li a{
+    font-size: 14px;
+    color: #666;
+}
+.right li span{
+    font-family:icomoon;
+    color: #f10215;
+    font-size: 14px;
+}
+.left a{
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: url("../../image/toxiang.png") no-repeat;
+}
+.right li a:hover{
+    color: #f10215;
+}
+.inner{
+    height: 70px;
+    position: relative;
+}
+.logo,.shop,.ping{
+    float: left;
+}
+.logo a{
+    display: block;
+    width:150px;
+    color: #FFEA75;
+    font-family:隶书;
+    font-size: 36px;
+    /*line-height: 70px;*/
+}
+.logo .wangzi{
+    font-size: 24px;
+    color: #FFEA75;
+    text-align: center;
+}
+.shop{
+    height: 50px;
+    width: 150px;
+    padding: 0 10px;
+    margin:10px 10px 0;
+    border-left:1px solid #cccccc ;
+    border-right:1px solid #cccccc;
+}
+.shop a{
+    display: inline-block;
+    line-height: 50px;
+    font-weight:700;
+    color: #000;
+}
+.shop span{
+    font-family:icomoon;
+    font-size: 14px;
+    color: skyblue;
+}
+.ping-one{
+    width: 30px;
+    margin: 25px 15px 0 5px;
+    float: left;
+}
+.ping-one{
+    font-size: 14px;
+}
+.ping-one .jiangtou{
+    font-family:icomoon;
+    color: #f10215;
+}
+.sou{
+    width: 400px;
+    position: absolute;
+    bottom: 12px;
+    right: 150px;
+}
+.sou input{
+    width: 300px;
+    height: 25px;
+    border: 1px solid #f10215;
+    padding-left:8px;
+    color: #989898;
+    outline: none;/*取消蓝色边框*/
+    float: left;
+}
+.sou button{
+    background: #f10215;
+    height: 27px;
+    width: 50px;
+    float: left;
+    outline: none;
+    font-family:icomoon;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+.erweima{
+    width: 70px;
+    height: 70px;
+    float: right;
+    background: url("../image/二维码.jpg") no-repeat;
+    margin-right: 20px;
+}
+.product{
+    height: 510px;
+    margin-top: 10px;
+}
+.goods{
+    width: 400px;
+    height: 500px;
+    float: left;
+}
+.goods-tu{
+    width: 100%;
+    height: 450px;
+    border: 1px solid #ccc;
+}
+.goods a{
+    display: inline-block;
+    color: #666666;
+    font-size: 14px;
+    margin: 20px 10px 0 10px;
+}
+.goods a:hover{
+    color: #f10215;
+}
+.goods a i{
+    font-family:icomoon;
+    text-decoration: none;
+    color: #f10215;
+    font-size: 16px;
+}
+.wrap{
+    width: 600px;
+    float: left;
+    margin:10px 0 0 30px;
+}
+.wrap-name{
+    height: 60px;
+    color: #666;
+    font-weight:700;
+}
+.wrap-name a,.wrap-name span{
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    font-size: 12px;
+    font-weight:700;
+    background: #1e342f;
+    color: #FFFFFF;
+    border: 1px solid #000;
+}
+.wrap-name span{
+    color: #000;
+    background: #FFEA75;
+    margin-left: -4px;
+}
+.hotword{
+    font-size: 12px;
+    color: #f10215;
+    padding-left: 10px;
+}
+.wrap-price{
+    height: 90px;
+    margin-top: 10px;
+    background: #f3f3f3;
+    padding-top: 10px;
+}
+.explain{
+    display: inline-block;
+    width: 60px;
+    color: #999;
+    font-size: 14px;
+    margin:0 10px;
+}
+.xianjia i{
+    color: #f10215;
+    font-size: 18px;
+}
+.youhui span{
+    margin:0 10px 0 85px;
+}
+.youhui i{
+    font-size: 14px;
+    color: #666;
+}
+.cu{
+    margin-top: 10px;
+}
+
+.cu a{
+    display: inline-block;
+    color: #f10215;
+    width: 30px;
+    text-align: center;
+    border: 1px solid #f10215;
+    font-size: 12px;
+    margin:0 5px 0 5px;
+}
+.cu i{
+    font-size: 12px;
+    color: #666;
+}
+.service{
+    width: 100%;
+    height: 140px;
+    border-bottom:1px solid #ccc;
+    margin-top: 5px;
+}
+.service i{
+    font-size: 14px;
+    color: #666;
+    margin-right: 10px;
+}
+.service .kuai{
+    font-size: 14px;
+    color: #666;
+    margin:5px 0 10px 85px;
+}
+.service p{
+    margin-top: 10px;
+}
+.wrap-footer{
+    padding:30px 0 0 90px;
+}
+.zhifu a{
+    width: 178px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    border: 1px solid #f10215;
+    background: #ffeded;
+    color: #f10215;
+    float: left;
+}
+.jiagou a{
+    font-family:icomoon;
+    width: 180px;
+    height: 40px;
+    line-height: 38px;
+    text-align: center;
+    background: #f10215;
+    color: #fff;
+    float: left;
+    margin-left: 12px;
+}

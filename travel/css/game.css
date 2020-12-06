@@ -1,0 +1,34 @@
+*{
+    margin: 0 auto;
+
+}
+body {
+    background: #f8f8f8;
+}
+
+
+.prelude  {
+    background: #aef8f8;
+    width: 450px;
+    height: 250px;
+    margin-top: 200px;
+}
+.prelude  ul{
+    list-style:none;
+}
+.prelude  li{
+    margin: 20px ;
+    padding-top: 30px;
+}
+.p-title{
+    display: inline-block;
+    margin-left: 10px;
+
+}
+.pic img{
+    padding-top: 10px;
+}
+.pic a:hover{text-decoration: underline}
+.pic a:link{text-decoration: none}
+.p-title a:hover{text-decoration: underline;color: #73cef4;}
+.p-title a:link{text-decoration: none}

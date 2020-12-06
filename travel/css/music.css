@@ -1,0 +1,34 @@
+*{padding:0;margin:0;}
+li{list-style:none;}
+body{margin:10px;background:#ccc;}
+
+.wrap{
+    margin:50px auto;
+    width:1200px;
+    height:437px;
+    position:relative;
+    overflow:hidden;
+}
+.pic{
+    width:679px;
+    height:437px;
+    cursor:pointer;
+}
+.music{
+    margin-left: 70px;
+}
+h2{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.pic1{background:url("../music/image/1.jpg"); position:absolute; top:0; left:0; z-index:1;}
+.pic2{background:url("../music/image/2.jpg"); position:absolute; top:0; left:679px; z-index:3;}
+.pic3{background:url("../music/image/3.jpg"); position:absolute; top:0; left:770px; z-index:5;}
+.pic4{background:url("../music/image/4.jpg"); position:absolute; top:0; left:861px; z-index:7;}
+.pic5{background:url("../music/image/5.jpg"); position:absolute; top:0; left:952px; z-index:9;}
+.pic6{background:url("../music/image/6.jpg"); position:absolute; top:0; left:1043px; z-index:11;}
+.pic7{background:url("../music/image/7.jpg"); position:absolute; top:0; left:1134px; z-index:13;}
+.pic8{background:url("../music/image/8.jpg"); position:absolute; top:0; left:1225px; z-index:15;}
+.pic9{background:url("../music/image/9.jpg"); position:absolute; top:0; left:1316px; z-index:17;}
+.pic10{background:url("../music/image/10.jpg"); position:absolute; top:0; left:1407px; z-index:19;}
+

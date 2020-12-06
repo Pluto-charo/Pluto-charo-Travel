@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #f6f6f6;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.w{
+    width: 1190px;
+    margin:auto;
+}
+.red{
+    color: #f10215!important;
+}
+.header{
+    height: 29px;
+    width: 100%;
+    background: #E3E4E5;
+    border-bottom:1px solid #cccccc;
+}
+.left{
+    height: 30px;
+    float: left;
+    line-height: 30px;
+}
+.left ul{
+    margin-left: 70px;
+}
+.left li{
+    float: left;
+    margin-left:8px;
+    font-size: 14px;
+    color: #666;
+}
+.right{
+    float: right;
+    height: 30px;
+    line-height: 30px;
+}
+.right li{
+    float: left;
+    margin-right:15px;
+}
+.right li a{
+    font-size: 14px;
+    color: #666;
+}
+.right .tou{
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: url("../image/toxiang.png") no-repeat;
+}
+.right li a:hover{
+    color: #f10215;
+}
+.inner{
+    width: 100%;
+    height: 60px;
+}
+.inner .w{
+    height: 60px;
+    position: relative;
+}
+.logo{
+    width: 70px;
+    height: 90px;
+    position: absolute;
+    top: -30px;
+    left: 0;
+    box-shadow: 0 -12px 10px rgba(0,0,0,.3);
+}
+.logo h1 a{
+    width: 70px;
+    height: 90px;
+    display: block;
+    background: url("../image/pikaqiu.jpg") no-repeat;
+}
+.inner span{
+    position: absolute;
+    bottom: 0;
+    left: 75px;
+    font-family:隶书;
+    font-size: 44px;
+    color: #FFEA75;
+    font-weight:700;
+}
+.navitems{
+    width: 500px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 60px;
+}
+.navitems li{
+    float: left;
+    margin-right: 50px;
+}
+.navitems li a{
+    display: block;
+    height: 25px;
+    margin-top:35px;
+    font-weight:700;
+    color: #551A8b;
+}
+.navitems li a:hover{
+    background: url("../image/nav-bg.jpg") no-repeat;
+    border-radius: 12px;
+}
+
+
+.tu{
+    width: 100%;
+    height: 500px;
+}
+.block{
+    width: 1190px;
+    height: 500px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+.box_big{
+    position: absolute;
+    width: 9520px;
+    height: 500px;
+}
+.box{
+    width: 1190px;
+    height: 500px;
+    float:left;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.spot{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+}
+.spot_list{
+    cursor:pointer;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    font-weight: 700;
+    margin: 5px;
+    display: inline-block;
+    background: rgba(255,255,255,0.3);
+}
+.nav{
+    transition: margin-left 0.5s linear ;
+}
+.left_btn,.right_btn{
+    display: block;
+    width: 50px;
+    height: 50px;
+    font-size: 26px;
+    line-height: 50px;
+    background: rgba(0,0,0,0.3);
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+}
+.left_btn{
+    left: 0;
+}
+.right_btn{
+    right: 0;
+}
+.left_btn:hover,.right_btn:hover {
+    background: #fff;
+    cursor:pointer;
+    color: blue;
+}
+.tourist{
+    margin-top: 20px;
+}
+.tourist-top{
+    width: 1187px;
+    height: 30px;
+    border-left:3px solid #000000;
+}
+.tourist-left{
+    line-height: 30px;
+    padding-left: 8px;
+    float: left;
+    font-weight:700;
+}
+.tourist-top a{
+    float: right;
+    line-height: 30px;
+    color: #f10215;
+    margin-right: 8px;
+    font-size: 14px;
+}
+.tourist-middle{
+    width: 100%;
+    height: 320px;
+    margin-top: 5px;
+}
+.tourist-middle li{
+    transition:all 1s;
+}
+.tourist-middle li:hover{
+    transform:scale(1.025);
+}
+.tourist-middle li{
+    float: left;
+    margin-right: 10px;
+    position: relative;
+}
+.tourist-middle .last{
+    margin: 0;
+}
+.tourist-middle li a{
+    width: 290px;
+    height: 320px;
+    display: block;
+    background: purple;
+}
+.tourist-middle .wenzi{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    position: absolute;
+    background: rgba(0,0,0,.3);
+    left: 0;
+    bottom: 0;
+}
+.footer{
+    width: 100%;
+    height: 200px;
+    margin-top: 30px;
+}
+.copyright{
+    border-top:1px solid #DEDEDE;
+    padding-top: 15px;
+}
+.links{
+    text-align: center;
+}
+.links a{
+    font-size: 12px;
+    color: #727272;
+}
+.links span{
+    font-size: 12px;
+    color: #D4CDCD;
+    margin:0 6px;
+}
+.c-info{
+    font-size: 12px;
+    color: #9E9E9B;
+    text-align: center;
+    line-height: 20px;
+    margin-top: 10px;
+}
+.c-info .ju{
+    margin:0 5px;
+}
+
